@@ -1,0 +1,51 @@
+.header {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px;
+  border-bottom: 2px solid black;
+  font-family: "roboto";
+}
+
+.header img{
+  text-align: left;
+  width: 40%;
+}
+
+.header a{
+  text-decoration: none;
+  padding-left: 20px;
+  color: black;
+}
+.header a:hover{
+color: #af67eb;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+ 
+}
+.box{
+  display: flex;
+  flex-direction: row;
+}
+
+/* .box a:hover{
+  color: #af67eb;
+  } */
+
+/* .menu a:hover{
+  color: #af67eb;
+} */
+.start-a-project img{
+  width: 12px;
+}
+/* .search a :hover{
+  color:#af67eb;
+} */
+/* .sign-in a :hover{
+  color:#af67eb;
+}  */

@@ -1,0 +1,70 @@
+.projects {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+.projects a{
+  text-decoration: none;
+}
+.project-box{
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  font-family: "Roboto";  
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(224, 224, 224);
+  border-radius: 2px;
+  flex: 1 1 auto;
+  margin: 10px;
+  max-width: 280px;
+  min-width: 250px;
+  height: 300px;
+
+  
+}
+.project-box a {
+  text-decoration: none;
+}
+
+.project-content{
+  display: flex;
+  justify-content: space-between;
+}
+a.project-link, a.project-link a{
+  text-decoration: none !important;
+  color: black;
+}
+.project-picture :last-child{
+  width: 100%;
+}
+.project-content span{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(122, 122, 122);
+  font-weight: bold;
+}
+.text-box{
+padding: 10px;
+}
+.text-box  h2 a{
+  color:  #af67eb;
+  font-weight: bold;
+}
+.category span{
+font-weight: normal;
+}
+.collected span{
+  font-size: 17px;
+  font-weight: 300;
+  color: rgb(122, 122, 122);
+  margin-top: 11px;
+  margin-right: 5px;
+}
+.collected {
+  display: flex;
+}
+.collected img{
+  height: 36px;
+}

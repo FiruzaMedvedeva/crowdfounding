@@ -1,0 +1,51 @@
+.content{
+  max-width: 78.46154rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.board{
+  padding: 100px;
+}
+.button-bl{
+  display: flex;
+  justify-content: center; 
+  margin: 3.07em 0em;
+}
+.b-home{
+  display: flex;
+  justify-content: center; 
+  background-color: #00a6f0;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  font-family: Roboto;
+
+}
+.button {
+  color: white;
+   min-width: 12.46154rem;
+  line-height: 1.2;
+  flex: 1 1 auto;
+  justify-content: center;
+  margin: 3.07692rem;
+  text-align: center;
+}
+.content h2{
+  font-weight: normal;
+}
+#project-sharing{
+  background-color: white;
+  padding:10px;
+}
+#project-sharing li {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid transparent;
+  border-left: 0;
+  margin-bottom: -1px;
+ }
+  #project-sharing li:first-child {
+    border-radius: 5px 0 0 0!important;}
