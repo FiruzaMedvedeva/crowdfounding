@@ -1,8 +1,8 @@
 import React from 'react';
-import '../Content.css';
-import Project from '../Project.js';
-import Footer from '../Footer.js';
-import Header from '../Header';
+import '../components/Content.css';
+import Project from '../components/Project.js';
+import Footer from '../components/Footer.js';
+import Header from '../components/Header';
 
 const main = (props) => {
   return(

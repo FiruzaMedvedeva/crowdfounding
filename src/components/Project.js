@@ -2,6 +2,7 @@ import React from 'react';
 import './Project.css';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import { myProjects, projectCategories, ContentBox, SummBox } from './content/dataProjectBlock.js';
+import ButtonContribute from './content/b-contribute.js';
 
 const renderCategories = (cats) => {
     const myCats = projectCategories.filter(c => {
@@ -27,25 +28,28 @@ const renderSumm = (id) => {
       ].join('-');
     return (
         <div className="summbox">
-            COLLECTED: { mySumm.collected }
-            PERCENT: { mySumm.collected / mySumm.required * 100}
-            date: { date }
+        <p className="collected">собрано: { mySumm.collected } сом </p>
+         <div className="progress-summ">
+         <ProgressBar now={60} label={`${60}%`} />
+{/* // { mySumm.collected / mySumm.required * 100}%`} */}
+        </div>
+      <div className="timeleft_hover">
+      <span className="timestart"> date: { date } </span>
+      <span className="timeleft"></span>
+      </div> 
+      <div className="support">
+      </div>  
         </div>
     );
 }
-<SummBox id={1} />
+
 
 const renderData = (id) => {
     const myDataContent = ContentBox.filter(a => {
         return id===a.id;
     });
 
-// const renderSumm = (id) => {
-//     const mySumm = myProjects = SummBox.filter(b =>{
-//         return id===b.id;    
-//     })
-        
-// }
+
     return myDataContent.map(obj => {
         console.warn(obj);
         return(
@@ -68,15 +72,25 @@ return(
             <section id="project-status">
             
            { renderSumm(data[0].id)}
-           <p className="">
-           uihkk
-           </p>
-            
-
-            <ProgressBar now={now} label={`${now}%`} />
 
             </section>
+          
             </div>
+            <section id="author">
+            <h2>Creator</h2>
+            <ul>
+              <li>
+                <a href="32">
+                <h3>Nomands</h3>
+                <div className="avatar"></div>
+                </a>
+                </li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            </section>
         <section id="content-project">
             <header id="project-header">
           

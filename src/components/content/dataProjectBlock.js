@@ -37,7 +37,7 @@ export const ContentBox = [
 
 export const SummBox = [
   {id:1, required:"1000", collected:"400", launched:new Date('December 17, 1995 03:24:00') },
-  {id:2, required:"", collected:"", launched:""},
+  {id:2, required:"", collected:"", launched:new Date('December 17, 1995 03:24:00')},
   {id:3, required:"", collected:"", launched:""},
   {id:4, required:"", collected:"", launched:""}
 ]
