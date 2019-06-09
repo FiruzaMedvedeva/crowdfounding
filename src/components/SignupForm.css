@@ -1,0 +1,29 @@
+.signup-block{
+  text-align: center;
+  background-color: #f5f6f9;
+}
+.signup-block label{
+  height: 3.84615rem;
+  padding: 0 .76923rem;
+  text-align: inherit;
+}
+.signup-block input{
+  height: 1.84615rem;
+  padding: 0 .76923rem;
+  text-align: inherit;
+  border: .07692rem solid #e0e0e0;
+  border-radius: .15385rem;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  font-size: 1.15385rem;
+  font-weight: 400;
+  -webkit-transition: border-color .15s;
+  transition: border-color .15s;
+}
+.button-form input{
+  padding-bottom: 15px;
+  background-color: #00a6f0;
+  color: white;
+  margin: 10px;
+}

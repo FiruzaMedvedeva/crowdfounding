@@ -2,18 +2,10 @@
 
 
 export const myProjects = [
-  { id: 1, title: "title of project", pic:'/img/pic/content/1.png', author: "name",  category:[1, 2], summ:"summ", description: "text", video: "0tWbLwbLPQw"},
-  {id: 2, title: "title of project", pic:'/img/pic/content/1.png', author: "name",  category:[1, 2], summ:"summ", description: "text", video: ""},
-  {id: 3, title: "title of project", pic:'/img/pic/content/1.png', author: "name",  category:[1, 2], summ:"summ", description: "text", video: ""},
-  {id: 4, title: "title of project", pic:'/img/pic/content/1.png', author: "name",  category:[1, 2], summ:"summ", description: "text", video: ""},
-  {id: 5, title: "title of project", pic:'/img/pic/content/1.png', author: "name",  category:[1, 2], summ:"summ", description: "text", video: ""},
-  {id: 6, title: "title of project", pic:'/img/pic/content/1.png', author: "name",  category:[1, 2], summ:"summ", description: "text", video: ""},
-  {id: 7, title: "title of project", pic:'/img/pic/content/1.png', author: "name",  category:[1, 2], summ:"summ", description: "text", video: ""},
-  {id: 8, title: "title of project", pic:'/img/pic/content/1.png', author: "name",  category:[1, 2], summ:"summ", description: "text", video: ""},
-  {id: 9, title: "title of project", pic:'/img/pic/content/1.png', author: "name",  category:[1, 2], summ:"summ", description: "text", video: ""},
-  {id: 10, title: "title of project", pic:'/img/pic/content/1.png', author: "name",  category:[1, 2], summ:"summ", description: "text", video: ""},
-
- 
+  { id: 1, title: "Мусор - давай жить дружно!", pic:'/img/pic/content/3.jpg', author: 1,  category:[2], summ:"summ", description: "о решении наболевшей всеми проблемы, общими усилиями", video: "aynJgqfPeF4"},
+  { id: 2, title: "Мусор - давай жить дружно!", pic:'/img/pic/content/3.jpg', author: 1,  category:[2], summ:"summ", description: "о решении наболевшей всеми проблемы, общими усилиями", video: "aynJgqfPeF4"},
+  { id: 3, title: "Мусор - давай жить дружно!", pic:'/img/pic/content/3.jpg', author: 1,  category:[2], summ:"summ", description: "о решении наболевшей всеми проблемы, общими усилиями", video: "aynJgqfPeF4"},
+  { id: 4, title: "Мусор - давай жить дружно!", pic:'/img/pic/content/3.jpg', author: 1,  category:[2], summ:"summ", description: "о решении наболевшей всеми проблемы, общими усилиями", video: "aynJgqfPeF4"},
 ];
 
 
@@ -27,7 +19,7 @@ export const projectCategories = [
 ];
 
 export const ContentBox = [
-  {id:1, text:"These days, everything seems to be falling apart", pic:'../img/project/1.png'},
+  {id:1, text:"По статистике, каждый кыргызстанец в год выбрасывает больше 200 килограммов мусора. Половина этого объема – пластиковая упаковка разных товаров и продуктов, которая в зависимости от состава разлагается от 100 до 200 лет.За это время объемы «мусорного пластика» могут вырасти так сильно, что экологи не зря предсказывают мрачное будущее Земле, которая просто утонет в тоннах полиэтилена.Понятно, что выбрасывать пластиковые упаковку или бутылки на мусорку – плохая идея, но как найти лучший способ их сортировки и утилизации, если в городе нет ни мусороперерабатывающего завода, ни системы раздельного сбора отходов? Вы знали, что бездомные люди, копающиеся в мусорных контейнерах и урнах, выполняют важную экологическую миссию? Они, сами того не осознавая, становятся санитарами города.", pic:'../img/pic/content/12.jpg'},
   {id:2, text:"", pic:''},
   {id:3, text:"", pic:''},
   {id:4, text:"", pic:''},
@@ -36,8 +28,33 @@ export const ContentBox = [
 ];
 
 export const SummBox = [
-  {id:1, required:"1000", collected:"400", launched:new Date('December 17, 1995 03:24:00') },
+  {id:1, required:"200000", collected:"4000", launched:new Date('March, 2019 03:24:00') },
   {id:2, required:"", collected:"", launched:new Date('December 17, 1995 03:24:00')},
   {id:3, required:"", collected:"", launched:""},
   {id:4, required:"", collected:"", launched:""}
-]
+];
+
+export const User = [
+  {id:1, logo:"/img/pic/content/4.png", fullname:"Гермиона", phone:"46-28-46", email: "germi@gmail.com", about:"Ученица школы Хогвартс" },
+  {id:2, logo:"./img/project/avatar.png", fullname:"faawe wae", phone:"531615", email: "fwefwe@gagga.gaw" },
+
+];
+
+export const Rewards = [
+  {id:1, rews: [
+      { name:"экосумки", amount:100, text: "брошюры и литература" },
+      { name:"экосумки", amount:1000, text: "экосумки и эко-контейнеры для хранения радио - опасных отходов" },
+      { name:"контейнеры вне очереди", amount:5000, text: "установка одного контейнера для раздельного сбора вне очереди" },
+    ] 
+  },
+];
+
+export const SignIn = [
+  {login:"", email:"", password:""},
+
+];
+
+export const SignUp = [
+  {login:"", email:"", password:""},
+
+];

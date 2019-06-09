@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import './ProjectBlock.css';
 import { myProjects } from './dataProjectBlock.js';
 
@@ -10,10 +12,10 @@ import { myProjects } from './dataProjectBlock.js';
 const ProjectBox = (props) => {
   console.log(props);
   return (
-    
-    <Link to={`/components/${props.data.id}`}>
+
+    <Link to={`/projects/${props.data.id}`}>
     <div className="project-box">
-      <a className="project-link" href="###">
+    
       
         <div className="project-header">
           <div className="project-picture">
@@ -21,7 +23,7 @@ const ProjectBox = (props) => {
           </div>
           <div className="text-box">
           <h2>
-            <Link to={`/components/${props.data.id}`}>
+            <Link to={`/projects/${props.data.id}`}>
               { props.data.title }
             </Link>
           </h2>
@@ -41,7 +43,7 @@ const ProjectBox = (props) => {
         </div>
         </div>
         </div>
-      </a>
+      
     </div>
     </Link>
   );
@@ -51,15 +53,18 @@ const ProjectBlock = () => {
   return(
     <div className="ProjectBlock">
       <div className="projects">
+        <Row>
         {
           myProjects.map(item => {
             console.log(">>>", item);
             return (
-              <ProjectBox data={item} />
+              <Col xs="12" md="3">
+                <ProjectBox data={item} />
+              </Col>
             );
           })
         }
-        
+        </Row>
       </div>
     </div>
   );

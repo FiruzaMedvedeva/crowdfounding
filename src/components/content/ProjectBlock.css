@@ -10,7 +10,7 @@
 }
 .project-box{
   background-color: rgb(255, 255, 255);
-  width: 100px;
+  width: 100%;
   font-family: "Roboto";  
   border-width: 1px;
   border-style: solid;
@@ -19,7 +19,6 @@
   flex: 1 1 auto;
   margin: 10px;
   max-width: 280px;
-  min-width: 250px;
   height: 300px;
 
   

@@ -1,0 +1,97 @@
+.start-content{
+  background: #f5f6f9;}
+.start-box{
+  max-width: 760px;
+  margin: 0 auto;}
+
+.describe-box input{
+  width: 100%;
+  height: 100px;
+  outline-color: rgb(0, 166, 240);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  -webkit-font-smoothing: antialiased;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: dashed;
+
+  border-image: initial;
+  padding: 12px 0px 0px 12px;
+} 
+.describe-label{
+  display: flex;
+  font-size: 22px;
+  font-weight: bold;
+  flex-direction: row;
+  padding: 30px 0px 70px;
+}
+
+.for-box{
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0px 70px;
+}  
+.checked{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(189, 189, 189);
+  border-image: initial;
+  padding: 10px;
+  margin: 10px;
+}
+
+.checkbox{
+  display: flex;
+  margin-top: -15px;
+  margin-left: 10px;
+  
+}
+.title{
+  font-size: 22px;
+  font-weight: bold;
+    flex-direction: row;
+}
+.links-box {
+  display: flex;
+  padding: 30px 0px 70px;
+
+}
+.links-box .title{
+  display: flex;
+ }
+.rise-box{
+  padding: 30px 0px 70px;
+}
+.add{
+  box-sizing: border-box;
+  width: auto;
+  height: 50px;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 166, 240);
+  flex: 0 0 auto;
+  padding: 0px 16px;
+  border-radius: 2px;
+  transition: all 200ms ease-in-out 0s;
+  margin: 10px;
+
+  
+} 
+.continue{
+  background-color: rgb(102, 220, 136);
+  width: 100%;
+  text-align: center;
+  margin: 26px;
+  color: white;
+
+}

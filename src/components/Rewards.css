@@ -1,0 +1,41 @@
+#rewards-block{
+  right: 90px;
+  top: 610px;
+  list-style: none;
+  border: 1px solid #ddd;
+  border-radius: 5px 5px 5px 5px;
+  min-width: 20%;
+  margin-top: 11%;
+}
+#rewards-block h2{
+  background: #fafafa;
+  text-align: center;
+  font-size: 1em;
+  line-height: 45px;
+  height: 45px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px 5px 0 0;
+}
+.reward-title {
+  font-size: 16px;
+  color: #00a6f0;
+  list-style: none;
+  position: relative;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.reward-description{
+  border-bottom: 1px solid #ddd;
+  display: block;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #525252;
+  position: relative;
+  cursor: pointer;
+  transition: all .1s;
+}
+.reward-description ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}

@@ -1,0 +1,35 @@
+.author-box{
+  display: flex;
+  
+}
+
+.author-box img{
+padding-left: 10px;
+
+}
+
+#author h2{
+  background: #fafafa;
+  text-align: center;
+  font-size: 1em;
+  height: 45px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 5px 5px 0 0;
+  line-height: 45px;
+  
+}
+.author-box ul{
+  padding: 0px;
+  font-size: 13px;
+  list-style: none;
+}
+#author h3{
+  padding-left: 5px;
+  font-size: 15px;
+};
+section#author{
+  margin-top: 11%;
+}
+.creator{
+  height: 70px;
+}

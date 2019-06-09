@@ -1,0 +1,10 @@
+.about-content h2{
+  text-align: center;
+  padding: 10px;
+}
+.about-content img{
+  width: 100%;
+}
+.about-content p{
+  padding: 10px;
+}
