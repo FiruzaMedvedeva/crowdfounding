@@ -7,6 +7,7 @@ import Rewards from './Rewards';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Checkout from  './Checkout'
 import { Link } from 'react-router-dom';
 
 
@@ -38,14 +39,15 @@ import { Link } from 'react-router-dom';
       <div className="summbox">
         <p className="collected">собрано: { mySumm.collected } сом </p>
         <p className="required">требуется: { mySumm.required} </p>
-          <div className="progress-summ">
-            <ProgressBar now={percent} label={`${percent}%`} />
-          </div>
-            <div className="timeleft_hover">
-              <span className="timestart"> дата старта: { date } </span>
-            </div> 
-             <Link to="/signinform" className="contribute">сделать вклад</Link>
-              <div className="support"></div>  
+        <div className="progress-summ">
+          <ProgressBar now={percent} label={`${percent}%`} />
+        </div>
+        <div className="timeleft_hover">
+          <span className="timestart"> дата старта: { date } </span>
+        </div> 
+        <Link to="/signinform" className="contribute">сделать вклад</Link>
+        <div className="support"></div>
+        <Checkout />
       </div>
     );
 }

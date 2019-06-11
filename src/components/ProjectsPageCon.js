@@ -9,14 +9,11 @@ const ProjectsPageCon = (props) => {
 
   return (
     <React.Fragment>
-    <Header/>
-
+      <Header/>
       <Container>
-        
         <Project { ...props }/>
-       
-     </Container>
-    <Footer/>
+      </Container>
+      <Footer/>
     </React.Fragment>
   );
 };
